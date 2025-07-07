@@ -10,7 +10,7 @@ This is a Spring Boot REST API that provides **weather information based on pinc
 <img src="images/Weather_application_Postgres_schema.png" alt="Architecture Diagram" width="600"/>
 <img src="images/weather_application_test_postman.png" alt="Architecture Diagram" width="600"/>
 ---
-
+```
 ## 🚀 Features
 
 - ✅ Get weather info by `pincode` and `date`
@@ -76,7 +76,7 @@ cd Weather-Info
 
 Create a database (e.g. `weatherdb`) and update your credentials in `application.properties`:
 
-```properties
+properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/weatherdb
 spring.datasource.username=postgres
 spring.datasource.password=your_password
