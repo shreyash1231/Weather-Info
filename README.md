@@ -10,9 +10,9 @@ This is a Spring Boot REST API that provides **weather information based on pinc
 <img src="images/Weather_application_Postgres_schema.png" alt="Architecture Diagram" width="600"/>
 <img src="images/weather_application_test_postman.png" alt="Architecture Diagram" width="600"/>
 ---
-```
-## 🚀 Features
 
+## 🚀 Features
+```
 - ✅ Get weather info by `pincode` and `date`
 - ✅ Avoid unnecessary external API calls using database caching
 - ✅ Store latitude & longitude per pincode
