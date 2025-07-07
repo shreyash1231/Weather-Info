@@ -70,16 +70,18 @@ weather_report/
 git clone https://github.com/shreyash1231/Weather-Info.git
 cd Weather-Info
 
+---
+
 ### 2️⃣ Configure PostgreSQL
 
 Create a database (e.g. `weatherdb`) and update your credentials in `application.properties`:
 
+```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/weatherdb
 spring.datasource.username=postgres
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 openweather.api.key=API_KEY
----
 
 ### 3️⃣  Build and Run
 
