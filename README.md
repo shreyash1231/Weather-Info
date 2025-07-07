@@ -120,7 +120,7 @@ GET http://localhost:8080/api/weather?pincode=411014&for_date=2025-07-07
 |---------------|-----------|-------------------------------|
 | Invalid input | 400       | Missing or wrong pincode/date |
 | API failure   | 500       | Weather/Geo API error         |
-| Not found     | 404       | No data found in cache          |
+| Not found     | 404       | No data found in cache        |
 
 ---
 
@@ -143,3 +143,4 @@ Shreyash Chandwadkar
 - 💻 GitHub: https://github.com/shreyash1231
 
 ---
+```
